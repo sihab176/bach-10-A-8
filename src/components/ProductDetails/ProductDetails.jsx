@@ -36,8 +36,8 @@ const ProductDetails = () => {
            
             
            <div className='mt-8'>
-           <button onClick={()=>hendleMakeRead(id)} className="btn btn-outline btn-secondary mr-4 ">Mark as read</button>
-           <button  className="btn btn-outline btn-accent">Add to wishList</button>
+           <button onClick={()=>hendleMakeRead(id)} className="btn btn-outline btn-secondary mr-4 ">Cart</button>
+           <button  className="btn btn-outline btn-accent">WishList</button>
            </div>
         </div>
     </section>

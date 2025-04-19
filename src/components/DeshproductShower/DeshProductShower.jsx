@@ -25,7 +25,7 @@ const DeshProductShower = ({arrayOfProduct,elemet,setData}) => {
                         <h2>price: {price}</h2>
                     </div>
                     <div className='pl-10'>
-                        <button onClick={()=>hendleRemove(id)} className='btn'>remove</button>
+                        <button onClick={()=>hendleRemove(id)} className='btn bg-purple-500'>remove</button>
                     </div>
 
                 </div>
